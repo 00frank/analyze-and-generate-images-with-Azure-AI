@@ -1,5 +1,9 @@
 # React Azure Image Analyzer & Generation
 
+## Preview
+
+![Preview](./src/preview.png)
+
 ## Instalación
 
 Para instalar y ejecutar este proyecto, sigue estos pasos:
