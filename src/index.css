@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.content-container {
+  display: flex;
+  width: 100vw;
+  margin-top: 2rem;
+}
+
+.content-container > section {
+  width: 50vw;
+}
+
+.content-container > section.analyzed > div > pre,
+.content-container > section.generated > div > pre {
+  background-color: #ccc;
+  white-space: pre-wrap;
+  text-wrap: pretty;
+  word-break: break-all;
+  width: 50%;
+}
+
+.content-container > section.generated > div > pre {
+  background-color: #383838;
+  color: white;
+}
