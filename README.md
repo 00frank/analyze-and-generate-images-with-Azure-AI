@@ -15,8 +15,9 @@ Para instalar y ejecutar este proyecto, sigue estos pasos:
   ```
 
 3. Crea un archivo `.env` en el directorio raíz del proyecto y agrega el siguiente contenido:
-  ```json
-  // obtener estos valores desde el portal de azure - servicio Computer Vision (tier gratuito)
+  ```py
+  # obtener estos valores desde el portal de azure - servicio Computer Vision (tier gratuito)
+
   REACT_APP_OCP_APIM_KEY = "<puede encontrarse como 'Clave 1' o 'Clave 2'>"
   REACT_APP_COMPUTER_VISION_ENDPOINT = "<puede encontrarse como 'Extremo'>"
   ```
