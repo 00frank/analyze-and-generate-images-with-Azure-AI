@@ -25,8 +25,10 @@ Para instalar y ejecutar este proyecto, sigue estos pasos:
   REACT_APP_OCP_APIM_KEY = "<puede encontrarse como 'Clave 1' o 'Clave 2'>"
   REACT_APP_COMPUTER_VISION_ENDPOINT = "<puede encontrarse como 'Extremo'>"
 
-  REACT_APP_OPEN_AI_KEY = "<crear una cuenta en platform.openai.com | free tier>"
-  REACT_APP_OPEN_AI_GENERATION_ENDPOINT = "<crear una api key en la plataforma>"
+  # obtener estos valores desde la plataforma de Open AI (5 U$D credito gratuito)
+
+  REACT_APP_OPEN_AI_KEY = "<crear una api key en la plataforma>"
+  REACT_APP_OPEN_AI_GENERATION_ENDPOINT = "https://api.openai.com/v1"
   ```
 
 4. Inicia el proyecto usando el siguiente comando:
